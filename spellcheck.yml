@@ -1,0 +1,14 @@
+matrix:
+- name: python
+  sources:
+  - pyspelling/**/*.py
+  hunspell:
+    d: en_US
+  dictionary:
+    wordlists:
+    - docs/src/dictionary/en-custom.txt
+    output: build/dictionary/python.dic
+  pipeline:
+  - pyspelling.filters.python:
+      comments: false
+  
