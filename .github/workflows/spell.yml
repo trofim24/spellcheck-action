@@ -24,4 +24,4 @@ jobs:
         # Perform any documentation building that might be required
     - name: Spell check
       run: |
-        python -m pyspelling -c ./spellcheck.yml
+        python -m pyspelling -s hunspell -c ./spellcheck.yml
