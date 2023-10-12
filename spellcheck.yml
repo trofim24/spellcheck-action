@@ -1,7 +1,7 @@
 matrix:
 - name: python
   sources:
-  - '**/**/*.md'
+  - *.md
   hunspell:
     d: en_US
   dictionary:
