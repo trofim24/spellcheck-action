@@ -6,7 +6,7 @@ matrix:
     d: en_US
   dictionary:
     wordlists:
-    - docs/src/dictionary/en-custom.txt
+    - en-custom.txt
     output: build/dictionary/python.dic
   pipeline:
   - pyspelling.filters.python:
