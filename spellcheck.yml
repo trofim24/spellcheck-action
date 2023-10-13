@@ -1,7 +1,7 @@
 matrix:
 - name: python
   sources:
-  - *.md
+  - '**/*.md'
   default_encoding: utf-8
   hunspell:
     d: en_US
